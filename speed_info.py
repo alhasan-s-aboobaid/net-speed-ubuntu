@@ -24,7 +24,7 @@ def getData():
 
     import pprint
     pprint.pprint(faces)
-    print((int(faces["lo"]["recv_bytes"])+int(faces["lo"]["trans_bytes"]))/1024)
+
 
 
 schedule.every(1).seconds.do(getData)
