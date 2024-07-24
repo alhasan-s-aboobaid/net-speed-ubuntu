@@ -1,7 +1,7 @@
 # Netspeed ubuntu :earth_asia:
 A python code to read and show transmitted and received bytes for every network interface
 
-##The key features of the script include:
+#The key features of the script include:
 - Reading and parsing network statistics from the /proc/net/dev file.
 - Differentiating data columns into received and transmitted categories.
 - Storing and displaying the data in a structured dictionary format, mapping each network interface to its respective statistics.
